@@ -5,7 +5,7 @@ WORKDIR /app
 # While using Public GitHub Repo:
 # RUN git clone https://github.com/sagnikc2001/BookAPI-2.git
 # While using Private GitHub Repo using PAT:
-git clone https://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@github.com/sagnikc2001/BookAPI-2.git
+RUN git clone https://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@github.com/sagnikc2001/BookAPI-2.git
 WORKDIR /app/BookAPI-2
 RUN mvn install
 
